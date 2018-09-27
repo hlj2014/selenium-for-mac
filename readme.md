@@ -56,7 +56,7 @@ Now that you have Selenium and GeckoDriver installed, let's test it out with Pyt
 
 `from selenium import webdriver
 
-# Open the file in a browser.
+#Open the file in a browser.
 driver = webdriver.Firefox()
 driver.get('http://www.wikipedia.org')`
 
