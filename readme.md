@@ -29,19 +29,19 @@ Next, install a webdriver:
 
 This tutorial will demo installing [GeckoDriver](https://www.softwaretestinghelp.com/geckodriver-selenium-tutorial/ 'GeckoDriver Selenium Tutorial') for Firefox. Every browser uses a different driver and may have slightly different set up instructions. Check this [list](https://www.seleniumhq.org/download/ 'webdriver') and consider which browser you really need to work in. Best practice would be to set up multiple drivers for browser compatibility testing.
 
-3. Navigate to the GeckoDriver Github repo: https://github.com/mozilla/geckodriver/releases.
+5. Navigate to the GeckoDriver Github repo: https://github.com/mozilla/geckodriver/releases.
 
-4. Download the latest version for Mac, e.g. geckodriver-v0.22.0-macos.tar.gz.
+6. Download the latest version for Mac, e.g. geckodriver-v0.22.0-macos.tar.gz.
 
-5. Locate the download on your hard drive and unzip it by double clicking on it. This will add a geckodriver.exe file to your harddrive.
+7. Locate the download on your hard drive and unzip it by double clicking on it. This will add a geckodriver.exe file to your harddrive.
 
-6. This file needs to be added to the correct path on your computer so that Firefox can access it.
+8. This file needs to be added to the correct path on your computer so that Firefox can access it.
 
-7. In the Finder menu, navigate to Go > Go to Folder...
+9. In the Finder menu, navigate to Go > Go to Folder...
 
-8. In the pop up text box, enter the path `/usr/local/bin`, and press Go.
+10. In the pop up text box, enter the path `/usr/local/bin`, and press Go.
 
-9. Drag geckodriver.exe into this this folder.
+11. Drag geckodriver.exe into this this folder.
 
 
 Testing Selenium in Python
