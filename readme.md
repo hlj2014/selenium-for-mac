@@ -54,11 +54,11 @@ Now that you have Selenium and GeckoDriver installed, let's test it out with Pyt
 
 3. Create a new program and add in the following code:
 
-`from selenium import webdriver
+```from selenium import webdriver
 
 #Open the file in a browser.
 driver = webdriver.Firefox()
-driver.get('http://www.wikipedia.org')`
+driver.get('http://www.wikipedia.org')```
 
 4. Run the program. If the program executes properly, a new Firefox window will open and will automatically load the URL indicated in .get().
 
