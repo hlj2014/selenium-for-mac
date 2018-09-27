@@ -71,7 +71,7 @@ Your program should look something like this:
 
 `from selenium import webdriver
 
-# Open the file in a browser.
+####### Open the file in a browser.
 driver = webdriver.Firefox()
 driver.get('file:///Users/.../myfile.html')`
 
